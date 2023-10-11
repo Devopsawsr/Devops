@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx
+          image: 159831708372.dkr.ecr.us-east-1.amazonaws.com/devops:nginx-v1
           ports:
             - containerPort: 80
